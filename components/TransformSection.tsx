@@ -6,7 +6,7 @@ import FadeIn from "./FadeIn";
 import Button from "./Button";
 
 const styles = {
-  section: "py-20 dark:bg-slate-950 transition-colors duration-500",
+  section: "py-20 px-2 dark:bg-slate-950 transition-colors duration-500",
   container: "max-w-7xl mx-auto",
   gradientCard:
     "relative overflow-hidden rounded-[32px] bg-gradient-to-br from-[#006A9F] via-[#008BB9] to-[#0394D9] dark:from-[#0D3B4F] dark:to-[#0394D9] p-8 md:p-16 lg:p-20 shadow-2xl",
