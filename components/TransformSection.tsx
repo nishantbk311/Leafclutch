@@ -51,13 +51,13 @@ const TransformSection: React.FC = () => {
                 </p>
 
                 <div className={styles.buttonGroup}>
-                  <Button className="bg-[#FEF7A5] text-[#0D3B4F] px-8 py-4 text-lg group">
+                  <Button className="bg-[#FEF7A5] text-[#0D3B4F] px-8 py-4 text-lg group w-full md:w-auto">
                     Get Started
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                   <Button
                     variant="outline"
-                    className="border-white/40 text-white hover:bg-white/10 px-8 py-4 text-lg"
+                    className="border-white/40 text-white hover:bg-white/10 px-8 py-4 text-lg w-full md:w-auto"
                   >
                     View Pricing
                   </Button>

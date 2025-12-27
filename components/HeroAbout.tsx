@@ -3,7 +3,7 @@ import { useScrollReveal } from "../hooks/useScrollReveal";
 
 const styles = {
   section:
-    "relative overflow-hidden pt-30 pb-32 lg:pt-40 lg:pb-20 transition-colors duration-300",
+    "relative overflow-hidden pt-40 pb-25 lg:pt-40 lg:pb-20 transition-colors duration-300",
   container:
     "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 transition-all duration-1000",
   visible: "opacity-100 translate-y-0",

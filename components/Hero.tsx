@@ -88,12 +88,15 @@ const Hero = () => {
             className={styles.buttonContainer}
           >
             <Button
-              className={`${styles.button} bg-[#FEF7A5] hover:bg-[#FDF181] text-[#0D3B4F]`}
+              className={`${styles.button} bg-[#FEF7A5] hover:bg-[#FDF181] text-[#0D3B4F] w-full md:w-auto`}
             >
               Get Started
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" className={styles.outlineButton}>
+            <Button
+              variant="outline"
+              className={`${styles.outlineButton} w-full md:w-auto`}
+            >
               View Our Work
             </Button>
           </motion.div>
