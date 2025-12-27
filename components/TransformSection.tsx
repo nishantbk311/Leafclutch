@@ -6,7 +6,7 @@ import FadeIn from "./FadeIn";
 import Button from "./Button";
 
 const styles = {
-  section: "py-20 px-6 dark:bg-slate-950 transition-colors duration-500",
+  section: "py-20 dark:bg-slate-950 transition-colors duration-500",
   container: "max-w-7xl mx-auto",
   gradientCard:
     "relative overflow-hidden rounded-[32px] bg-gradient-to-br from-[#006A9F] via-[#008BB9] to-[#0394D9] dark:from-[#0D3B4F] dark:to-[#0394D9] p-8 md:p-16 lg:p-20 shadow-2xl",
@@ -16,7 +16,7 @@ const styles = {
     "relative z-10 grid lg:grid-cols-[1.2fr_0.8fr_1fr] gap-12 items-center",
   leftContent: "space-y-1",
   heading:
-    "text-4xl md:text-5xl lg:text-[3rem] font-extrabold text-white leading-tight",
+    "text-3xl md:text-5xl lg:text-[3rem] font-extrabold text-white leading-tight",
   subheading: "text-white/80 text-lg md:text-xl max-w-md leading-relaxed",
   buttonGroup: "flex flex-wrap gap-4 pt-4",
   qrCard: "flex justify-center",
